@@ -70,7 +70,7 @@
 --.2cm--
 
 \begin{ipythonconsolecode}
-In [1]: from numba_rvsdg import AST2SCFG
+In [1]: from numba_scfg import AST2SCFG
 
 In [2]: def function():
    ...:     return 1

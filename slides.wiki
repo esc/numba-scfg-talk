@@ -19,7 +19,7 @@
 * Regularize Python, identify branches and loops
 * Branch and loop regions are closed and clearly identified
 * Algorithm based on \href{https://dl.acm.org/doi/pdf/10.1145/2693261}{Bahmann2015}
-* Implemented in package \href{https://github.com/numba/numba-rvsdg}{numba-rvsdg}
+* Implemented in package \href{https://github.com/numba/numba-scfg}{numba-scfg}
 * Two main contributions:
 ** --> Application of an academic paper to Python source
 ** --> Solution to de-sugaring Python for-loops
