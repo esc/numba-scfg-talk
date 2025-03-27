@@ -1,8 +1,8 @@
 def transformed_break_and_continue(x: int, y: int) -> int:
     __scfg_iterator_1__ = iter(range(2))
     i = None
-    __scfg_loop_cont__ = True
-    while __scfg_loop_cont__:
+    __scfg_loop_cont_1__ = True
+    while __scfg_loop_cont_1__:
         __scfg_iter_last_1__ = i
         i = next(__scfg_iterator_1__, '__scfg_sentinel__')
         if i != '__scfg_sentinel__':
@@ -18,7 +18,7 @@ def transformed_break_and_continue(x: int, y: int) -> int:
         else:
             __scfg_exit_var_0__ = 0
             __scfg_backedge_var_0__ = 1
-        __scfg_loop_cont__ = not __scfg_backedge_var_0__
+        __scfg_loop_cont_1__ = not __scfg_backedge_var_0__
     if __scfg_exit_var_0__ in (0,):
         i = __scfg_iter_last_1__
         __scfg_control_var_0__ = 0
