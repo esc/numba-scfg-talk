@@ -1,5 +1,5 @@
 base = slides
-slidefilename = haenel-euroscipy24-regularizing-python
+slidefilename = haenel-regularizing-python
 
 .PHONY: git-sha
 
