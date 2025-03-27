@@ -1,6 +1,6 @@
-================
-Numba-RVSDG Talk
-================
+===============
+Numba-SCFG Talk
+===============
 
 Title: Regularizing Python using Structured Control Flow.
 
@@ -71,8 +71,8 @@ expensive. Importantly, the construction of the SCFG representation for the
 input program is a necessary first step to constructing the full
 RVSDG and has significant merit in its own right.
 
-Sources on GitHub as: https://github.com/numba/numba-rvsdg
-Package on PyPi as: https://pypi.org/project/numba-rvsdg/
+Sources on GitHub as: https://github.com/numba/numba-scfg
+Package on PyPi as: https://pypi.org/project/numba-scfg/
 
 References:
 
@@ -112,6 +112,13 @@ Events
 ======
 
 * `EuroScipy24 <https://pretalx.com/euroscipy-2024/talk/U3EMKF/>`_
+
+Note
+====
+
+Note that previous versions of this talk were called ``numba-rvsdg-talk``, but
+the project that this talk describes was renamed from ``numba-rvsdg`` to
+``numba-scfg`` in early 2025. Hence the talk and slides were renamed too.
 
 Dependencies
 ============

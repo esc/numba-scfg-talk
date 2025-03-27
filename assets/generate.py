@@ -2,12 +2,12 @@ import ast
 import os
 import sys
 
-from numba_rvsdg.core.datastructures.ast_transforms import (
+from numba_scfg.core.datastructures.ast_transforms import (
     AST2SCFGTransformer,
     SCFG2ASTTransformer,
     unparse_code,
 )
-from numba_rvsdg.rendering.rendering import SCFGRenderer
+from numba_scfg.rendering.rendering import SCFGRenderer
 
 sys.path.append("./source")
 
