@@ -9,3 +9,4 @@ slides.wiki.tex
 git-sha
 _minted-slides/
 !*.pdf
+.DS_Store
